@@ -1,0 +1,31 @@
+.list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #dd5858;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .todolist {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .deleteBtn {
+    background-color: transparent;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .deleteBtn:hover {
+    color: #cc0000;
+  }
+  
