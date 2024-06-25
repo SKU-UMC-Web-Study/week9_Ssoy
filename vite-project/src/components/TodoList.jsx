@@ -7,7 +7,9 @@ import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 export default function TodoList() {
   const todolist = useSelector((state) => state.todo);
+  //useSelector를 통해 상태를 선택함
   const dispatch = useDispatch();
+  //컴포넌트가 액션을 보낼 수 있도록 useDispatch 사용
 
   const trashIcon = <FontAwesomeIcon icon={faTrashCan} />;
 
